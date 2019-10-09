@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Blackjack</title>
+    <link rel="stylesheet" href="CSS/blackjack.css">
+</head>
+
+<body>
+    <h1>Blackjack</h1>
+    <div> Druk op 'Start' om te beginnen!
+        <button onclick = "startGame()" > Start </button>
+    </div>
+
+    <div class="buttons">
+        <button id = "test" onclick = "kaarten()" > Hit </button>
+        <button onclick = "wisselSpeler()" > Stay </button>
+        <button onclick = "newGame()" > New Game </button>
+    </div>
+
+    <h2 class = dealerHand>Dealers hand</h2>
+    <div class = hulpvoortext> </div>
+    <div> Totaal: </div>
+    <br>
+    <div id = "waardeHandDealer"> </div>
+    <p id = "dealerCard"> </p>
+    <h2 class = playerHand>Jouw hand</h2>
+    <div class = hulpvoortext> </div>
+    <div> Totaal: </div>
+    <p id = "waardeHandSpeler"> </p>
+    <p id = "PlayerCard"> </p>
+
+
+    <!-- link met javascript file -->
+    <script src = "JS/Blackjack.js"> </script>
+</body>
+</html>

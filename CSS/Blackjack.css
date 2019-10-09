@@ -1,0 +1,44 @@
+/* Color palette:
+#B8D0EB PALE AQUA
+#B9FAF8 DIAMOND
+ */
+
+/* global */
+html {
+    background: #B9FAF8;
+    color: #545454;
+}
+body {
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+}
+h1 {
+    background: #B8D0EB;
+    margin-top: 0;
+    font-size: 70px;
+}
+h2 {
+    background: #B8D0EB;
+}
+
+/* buttons */
+.buttons {
+    margin: 50px;
+    outline-color: solid black;
+}
+button{
+    color: 545454;
+    background-color: #B8D0EB;
+    font-size: 20px;
+    
+}
+button:hover{
+    background-color: #B8D0EB;
+}
+}
+.hulpvoortext{
+    float: left;
+    min-height: 20px;
+    width: 40%;
+}
+
